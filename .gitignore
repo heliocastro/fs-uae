@@ -12,6 +12,7 @@
 autom4te.cache
 *.autosave
 base-dir
+build
 build68k
 /build/linux-dist/*-linux-*
 /build/linux-dist/Makefile

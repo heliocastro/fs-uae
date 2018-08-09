@@ -1,0 +1,39 @@
+set(ODFS_SOURCES
+    ahi_winuae.cpp
+	ahidsound_new.cpp
+	audio.cpp
+	blkdev-linux.cpp
+	bsdsocket_host.cpp
+	cda_play.cpp
+	cdimage_stubs.cpp
+	charset.cpp
+	clipboard.cpp
+	clock.cpp
+	driveclick.cpp
+	filesys_host.cpp
+	fsdb_host.cpp
+	gui.cpp
+	hardfile_host.cpp
+	input.cpp
+	inputrecord.cpp
+	ioport.cpp
+	joystick.cpp
+	keyboard.cpp
+	libamiga.cpp
+	logging.cpp
+	mman.cpp
+	mouse.cpp
+	parser.cpp
+	paths.cpp
+	roms.cpp
+	statusline.cpp
+	stubs.cpp
+	support.cpp
+	threading.cpp
+	uae_host.cpp
+	uaemisc.cpp
+	video.cpp
+    vpar.cpp
+)
+
+add_library(od-fs OBJECT ${ODFS_SOURCES})
